@@ -17,6 +17,9 @@ const flagColors =
 [3, 3, 3, 3, 3],
 [3, 3, 3, 3, 3]];
 
+const width = flagColors[0].length;
+const height = flagColors.length;
+
 var timer = 0;
 
 setInterval(() => {
